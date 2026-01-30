@@ -1,2 +1,54 @@
-# Image-classification
-This is the ml project cnn algorithm were i used to classify the images i give CIFAR10 dataset which have 10 classes each classes included frog,bird,automobile,dog,peacock,airplane,ship,horse,cat,truck and help of these dataset i trained the model with 80%accuracy and it containerise using docker
+# ML-Based Image Classification Backend API
+
+## Overview
+This project implements a scalable backend API for real-time image classification using a trained Convolutional Neural Network (CNN). The system exposes RESTful endpoints using FastAPI and is containerized with Docker for production-ready deployment on a cloud platform.
+
+## Problem Statement
+Deploying machine learning models into real-world applications requires a reliable backend that can handle image inputs, perform efficient inference, and return predictions with low latency while maintaining clean and maintainable code.
+
+## Solution
+A FastAPI-based backend service was developed to integrate a trained CNN model for image classification. The application follows a modular, object-oriented architecture and is containerized using Docker to ensure portability and scalability in cloud environments.
+
+---
+
+## Tech Stack
+- Python
+- FastAPI
+- REST APIs
+- Convolutional Neural Networks (CNN)
+- Docker
+- Git
+
+---
+
+## Dataset & Model Performance
+- **Dataset:** CIFAR-10 (sourced from Kaggle)
+- **Model:** Convolutional Neural Network (CNN)
+- **Accuracy:** 82% on validation data
+
+---
+
+## Features
+- Real-time image classification via REST API
+- CNN-based inference engine
+- Clean, modular backend architecture
+- Object-Oriented Programming (OOP) design
+- Dockerized for scalable cloud deployment
+- Version control using Git
+
+---
+
+## Development Details
+- **Project Type:** Backend API Development for ML-Based Image Classification  
+- **Duration:** Feb 2024 – Apr 2024  
+
+### Key Contributions
+- Developed scalable REST APIs using FastAPI to serve real-time image classification predictions.
+- Integrated a trained CNN model into backend services following clean, modular architecture.
+- Applied Object-Oriented Programming (OOP) principles to improve code reusability and maintainability.
+- Followed Software Development Life Cycle (SDLC) phases including development, testing, and deployment.
+- Used Git for version control and collaborative development.
+- Containerized backend services using Docker for portable and scalable deployment.
+
+---
+
