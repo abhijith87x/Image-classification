@@ -37,15 +37,24 @@ A FastAPI-based backend service was developed to integrate a trained CNN model f
 - Version control using Git
 
 ---
+Deployment
 
+The application is containerized using Docker and deployed on Render.com for cloud hosting.
+
+🔗 Production API Base URL:
+https://myapp-latest-1-bet8.onrender.com
+
+📘 Interactive Swagger Docs:
+https://myapp-latest-1-bet8.onrender.com/docs
 ## Development Details
 - **Project Type:** Backend API Development for ML-Based Image Classification  
-- **Duration:** Feb 2024 – Apr 2024  
+- **Duration:** Feb 2024 – Apr 2024
 
+
+---
 ### Key Contributions
 - Developed scalable REST APIs using FastAPI to serve real-time image classification predictions.
 - Integrated a trained CNN model into backend services following clean, modular architecture.
-- Applied Object-Oriented Programming (OOP) principles to improve code reusability and maintainability.
 - Followed Software Development Life Cycle (SDLC) phases including development, testing, and deployment.
 - Used Git for version control and collaborative development.
 - Containerized backend services using Docker for portable and scalable deployment.
